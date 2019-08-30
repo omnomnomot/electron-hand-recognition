@@ -1,0 +1,33 @@
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#camera{
+    height: 100%;
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+}
+
+.theatreMode{
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    height: 3em;
+    width: 6em;
+    z-index: 1000;
+    background: rgba(19, 64, 199,0);
+    color: aliceblue;
+    transition: background 500ms;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3em; 
+}
+
+.theatreMode:hover{
+    background: rgba(19, 64, 199, 0.7);
+    cursor: pointer;
+}
